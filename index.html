@@ -1,95 +1,63 @@
-<!DOCTYPE HTML> 
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html>
 <head>
-<title>Swipe 2</title>
-<meta http-equiv="X-UA-Compatible" content="IE=8">
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
-<link href='style.css' rel='stylesheet'/>
-<style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-/* Swipe 2 required styles */
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-.swipe {
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-}
-.swipe-wrap {
-  overflow: hidden;
-  position: relative;
-}
-.swipe-wrap > div {
-  float:left;
-  width:100%;
-  position: relative;
-}
+  <title>Swipe</title>
+  <meta name="description" content="Swipe is the most accurate touch slider.">
 
-/* END required styles */
-
-</style>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
 </head>
+
 <body>
 
-<h1>Swipe 2</h1>
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Swipe</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Swipe is the most accurate touch slider.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/d5-css/Swipe/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/d5-css/Swipe/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/d5-css/Swipe" class="code">View Swipe on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h3>
+<a id="开通网站webgl" class="anchor" href="#%E5%BC%80%E9%80%9A%E7%BD%91%E7%AB%99webgl" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>开通网站webGL</h3>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/d5-css" class="avatar"><img src="https://avatars3.githubusercontent.com/u/9853637?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/d5-css">d5-css</a> maintains <a href="https://github.com/d5-css/Swipe">Swipe</a></p>
 
 
-
-<div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
-  <div class='swipe-wrap'>
-    <div><b>0</b></div>
-    <div><b>1</b></div>
-    <div><b>2</b></div>
-    <div><b>3</b></div>
-    <div><b>4</b></div>
-    <div><b>5</b></div>
-    <div><b>6</b></div>
-    <div><b>7</b></div>
-    <div><b>8</b></div>
-    <div><b>9</b></div>
-    <div><b>10</b></div>
-    <div><b>11</b></div>
-    <div><b>12</b></div>
-    <div><b>13</b></div>
-    <div><b>14</b></div>
-    <div><b>15</b></div>
-    <div><b>16</b></div>
-    <div><b>17</b></div>
-    <div><b>18</b></div>
-    <div><b>19</b></div>
-    <div><b>20</b></div>
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
   </div>
-</div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/d5-css/Swipe/tarball/master" class="tar">tar</a><a href="https://github.com/d5-css/Swipe/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
 
-
-
-<div style='text-align:center;padding-top:20px;'>
   
-  <button onclick='mySwipe.prev()'>prev</button> 
-  <button onclick='mySwipe.next()'>next</button>
-
-</div>
-
-
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src='swipe.js'></script>
-<script>
-
-// pure JS
-var elem = document.getElementById('mySwipe');
-window.mySwipe = Swipe(elem, {
-  // startSlide: 4,
-  // auto: 3000,
-  // continuous: true,
-  // disableScroll: true,
-  // stopPropagation: true,
-  // callback: function(index, element) {},
-  // transitionEnd: function(index, element) {}
-});
-
-// with jQuery
-// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
-
-</script>
+</body>
+</html>
